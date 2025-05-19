@@ -51,7 +51,7 @@ function opentab(tabName, clickedElement)
     tab.style.transform = 'scale(1)';
     tab.style.backgroundColor = 'transparent';
     tab.style.color =  'rgb(207, 71, 137)';
-    tab.style.textdecoration = 'underline';
+    tab.style.textDecoration = 'underline';
     tab.style.fontWeight='bold'
     tab.style.boxShadow = 'none';
   });
