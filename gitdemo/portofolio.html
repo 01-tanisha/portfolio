@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanisha</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+   <div class="image"></div>
+   <nav class="navbar"> 
+        <a href="#about" style="margin-right: 25px;">About</a>
+        <a href="#portfolio" style="margin-right: 25px;">Portfolio</a>
+        <a href="#cv" style="margin-right: 25px;">CV</a>
+        <a href="#contact">Contact</a>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+   </nav>
+   <div class="text">
+       <h1>Welcome to my portfolio</h1>
+    <p>Hi, I'm Tanisha Singh Sikarwar.</p>
+   </div>
+   <section id="about" class="scroll-hidden">
+        <h2>About Me</h2>
+        <p>I’m a B.Tech student with a keen interest in technology and innovation. Throughout my academic journey, I’ve developed a strong curiosity for how things work and a drive to keep learning beyond the classroom. I enjoy exploring new concepts, taking on challenges, and growing both personally and professionally. I believe in consistent effort, adaptability, and staying open to new opportunities that help me shape a meaningful career in the tech world.</p>
+        <div class="tab-titles" id="tab-titles">
+            <p class="tab-links" onclick="opentab('Education',this)">Education</p>
+            <p class="tab-links" onclick="opentab('Skills',this)">Skills</p>
+            <p class="tab-links" onclick="opentab('Certifications',this)">Certifications</p>
+        </div>
+        <div class="tab-contents" id="Education"> 
+            <ul>
+                <li><span style="font-weight: bold;">CLASS X:</span> City Montessori School</li>
+                <li><span style="font-weight: bold;">CLASS XII: </span>City Montessori School</li>
+                <li><span style="font-weight: bold;">BTECH:</span> Banasthali Vidhyapith</li>
+            </ul>
+            </div>
+        <div class="tab-contents" id="Skills">
+            <ul>
+                <li><span style="font-weight: bold;">Programming Languages:</span> C, C++, Java</li>
+                <li><span style="font-weight: bold;">Web Development:</span> HTML, CSS, JavaScript</li>
+                <li><span style="font-weight: bold;">Database Management:</span> MySQL</li>
+                <li><span style="font-weight: bold;">Concepts:</span> Object-Oriented Programming, Data Structures</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Certifications">
+            <ul>
+                <li><span style="font-weight: bold;">Beginner’s Cyber Security Course:</span> Pregrad</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio" class="scroll-hidden">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <p>Project Title 1</p>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2">
+                <p>Project Title 2</p>
+            </div>
+        </div>
+    </section>
+    <section id="cv" class="scroll-hidden">
+        <h2>CV</h2>
+        <img class="img" src="cv.jpg">
+        <br>
+        <a href="TANISHA.pdf" target="_blank" id="CV"><button style="cursor: pointer; right:50%;">Download CV</button></a>
+
+    </section>
+
+    <section id="contact" class="=scroll-hidden">
+        <h2>Contact Me</h2>
+        <p><span style="font-weight: bold;">Email:</span> tanishasikarwar1@gmail.com</p>
+        <p><span style="font-weight: bold;">Phone No.:</span> 6307793718</p>
+    </section>
+    <hr>
+   <footer class="foot">
+       <p style="text-align: center;">© 2025 Tanisha Singh Sikarwar. All Rights Reserved.</p>
+       <button id="backToTop" style="position:fixed; bottom:20px; right:20px; display:none; cursor: pointer;">↑ Top</button>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
